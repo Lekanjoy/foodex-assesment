@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-heroBg: #0e0e0e;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scale-in-x {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes scale-out-x {
+  100% {
+    transform: scaleX(0);
+  }
+  0% {
+    transform: scaleX(1);
+  }
+}
+
+.fade-in {
+  animation: fade-in 1s ease-in-out;
+}
+
+.fade-out {
+  animation: fade-out 1s ease-in-out;
+}
+
+.scale-in-x {
+  animation: scale-in-x 1s ease-in-out;
+}
+
+.scale-out-x {
+  animation: scale-out-x 1s ease-in-out;
+}
+
+.sliding-item {
+  overflow: hidden;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+body {
+  font-family: "Sofia Sans", serif;
+  font-optical-sizing: auto;
+}
