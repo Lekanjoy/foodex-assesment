@@ -10,8 +10,8 @@ import souse from "../assets/souse.png";
 
 const Hero = () => {
   return (
-    <section className="relative bg-heroBg px-4 flex justify-center items-center flex-col text-center bg-[url(./assets/heroVector.png)] bg-cover rounded-lg text-white w-full min-h-screen pt-12 overflow-hidden lg:pt-24">
-      <div className="flex items-center gap-x-2 md:gap-x-3 lg:gap-x-4">
+    <section className="relative bg-heroBg px-4 flex justify-between items-center flex-col text-center bg-[url(./assets/heroVector.png)] bg-cover rounded-lg text-white w-full min-h-screen pt-12 overflow-hidden pb-2 lg:pt-24">
+      <div className="flex items-center gap-x-2 md:gap-x-3 lg:pb-4 lg:gap-x-4">
         <StarIcon
           fill="white"
           className="w-3 h-3 md:w-4 md:h-4 lg:w-6 lg:h-6"
@@ -42,7 +42,7 @@ const Hero = () => {
         </button>
       </form>
       <section className="relative w-full h-[380px] lg:h-[430px]">
-        <div className=" w-full absolute top-8 left-0 flex gap-x-4 overflow-hidden! mt-[100px] p-5 max-w-full ">
+        <div className=" w-full absolute bottom-0 left-0 flex gap-x-4 overflow-hidden!  max-w-full ">
           <FoodCard className="sliding-item " img={sauce} title={"Pasta, Green Sauce & Kpomo"} />
           <FoodCard className="sliding-item " img={shredded} title={"Shredded Roasted Chicken"} />
           <FoodCard className="sliding-item " img={egg} title={"Egg-cooked Fried Rice & Peas"} />
@@ -51,12 +51,12 @@ const Hero = () => {
           <FoodCard className="sliding-item " img={souse} title={"Souse Fries & Bacon"} />
           <FoodCard className="sliding-item " img={shredded} title={"Shredded Roasted Chicken"} />
         </div>
+      </section>
         <img
           src={appMenu}
           alt="App menu"
           className="absolute right-[70px] bottom-0 z-[5] w-[150px] lg:w-[200px] lg:right-[93px]"
         />
-      </section>
     </section>
   );
 };
