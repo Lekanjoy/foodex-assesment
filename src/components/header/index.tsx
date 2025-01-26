@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MobileNav from "./MobileNav";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
