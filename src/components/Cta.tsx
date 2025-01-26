@@ -22,7 +22,7 @@ const Cta = () => {
             fill="black"
             className="w-3 h-3 md:w-4 md:h-4 lg:w-6 lg:h-6"
           />
-          <p className="uppercase text-xs md:text-sm lg:text-base">
+          <p className="font-pangram uppercase text-xs md:text-sm lg:text-base">
             Join the chowafrica waitlist
           </p>
           <StarIcon
@@ -30,7 +30,7 @@ const Cta = () => {
             className="w-3 h-3 md:w-4 md:h-4 lg:w-6 lg:h-6"
           />
         </div>
-        <h2 className="font-medium text-[32px] text-[#353542] leading-[46px] lg:text-[64px] lg:leading-[72px]">
+        <h2 className="font-pangram font-medium text-[32px] text-[#353542] leading-[46px] lg:text-[64px] lg:leading-[72px]">
           Are you tired of eating the <br className="hidden md:block" />{" "}
           <span className="md:hidden">
             same dishes{" "}

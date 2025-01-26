@@ -16,7 +16,7 @@ const Hero = () => {
           fill="white"
           className="w-3 h-3 md:w-4 md:h-4 lg:w-6 lg:h-6"
         />
-        <p className="uppercase text-xs md:text-sm lg:text-base">
+        <p className="font-pangram uppercase text-xs md:text-sm lg:text-base">
           Join the chowafrica waitlist
         </p>
         <StarIcon
@@ -24,7 +24,7 @@ const Hero = () => {
           className="w-3 h-3 md:w-4 md:h-4 lg:w-6 lg:h-6"
         />
       </div>
-      <h1 className="mt-3 mb-6 text-4xl leading-[35px] font-medium tracking-tight md:mt-4 lg:mt-6 md:text-5xl lg:text-[76px] lg:leading-[86px] xl:text-[96px]">
+      <h1 className="font-pangram mt-3 mb-6 text-4xl leading-[35px] font-medium tracking-tight md:mt-4 lg:mt-6 md:text-5xl lg:text-[76px] lg:leading-[86px] xl:text-[96px]">
         Find chow, <AnimatedText />
       </h1>
       <p className="text-sm leading-[21px] md:text-base lg:leading-[30px] lg:max-w-2/4 lg:text-lg ">

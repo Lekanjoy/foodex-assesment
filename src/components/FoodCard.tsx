@@ -18,7 +18,7 @@ const FoodCard = ({img, title, className}:FoodCardProps) => {
       className="rounded-xl w-full object-cover object-center"
     />
     <div className="flex flex-col gap-y-1">
-      <p className="text-[#3C3937] text-xs text-left lg:text-sm">
+      <p className="font-pangram text-[#3C3937] text-xs text-left lg:text-sm">
         {title}
       </p>
       <p className="bg-[#D6D5CA] uppercase text-[#49280F] w-fit py-px px-1 text-[8px] rounded-full lg:text-xs">
